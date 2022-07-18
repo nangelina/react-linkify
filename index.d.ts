@@ -1,5 +1,10 @@
 import * as React from "react";
 
+import { linkify } from './dist/index';
+import LinkifyIt from 'linkify-it';
+
+export const linkify: LinkifyIt.LinkifyIt;
+
 export interface Match {
   index: number;
   lastIndex: number;
